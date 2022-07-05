@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch InitConfigTest",
+            "request": "launch",
+            "mainClass": "com.zingscoop.inheritance.InitConfigTest",
+            "projectName": "zingscoop-guide_67235892"
+        },
+        {
+            "type": "java",
+            "name": "Launch InheritanceMainApp",
+            "request": "launch",
+            "mainClass": "com.zingscoop.inheritance.InheritanceMainApp",
+            "projectName": "zingscoop-guide_67235892"
+        },
+        {
+            "type": "java",
             "name": "Launch EncapsulationApp",
             "request": "launch",
             "mainClass": "com.zingscoop.encapsulation.EncapsulationApp",
