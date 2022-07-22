@@ -19,6 +19,10 @@ public class CustomHashMapTest {
         System.out.println("Value for Luffy key: " + names.get("Luffy"));  // Pirate King
         System.out.println("Value for Luffyy key: " + names.get("Luffyy"));  //null
 
+        CustomHashMap<Integer, Integer> test = new CustomHashMap<>();
+        test.put(1, 1);
+        System.out.println("value of 1 " + test.get(1));
+
     }
     
 }
