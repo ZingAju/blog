@@ -21,7 +21,7 @@ public class CustomHashMapTest {
 
         CustomHashMap<Integer, Integer> test = new CustomHashMap<>();
         test.put(1, 1);
-        System.out.println("value of 1 " + test.get(1));
+        System.out.println("value of 1: " + test.get(1));
 
     }
     
