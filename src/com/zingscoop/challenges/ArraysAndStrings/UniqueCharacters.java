@@ -8,7 +8,7 @@ public class UniqueCharacters {
     private static boolean isUniqueCharacters(String str) {
         Map<Character,Boolean> map = new HashMap<>();
         for (int i = 0; i < str.length(); i++) {
-            if(str.codePointAt(i) <= 65535) {
+            if(str.codePointAt(i) <= 65535) {  // Just a safety check to check Character is within limit, else we have to use surrogate pairs
                 char ch = str.charAt(i);
                 if(!Character.isWhitespace(ch) && map.put(ch, true) != null) {
                     return false;
